@@ -35,6 +35,27 @@ app.get('/shopify', (req, res) => {
   }
 });
 
+// Shopify callback route
+app.get('/shopify/callback', (req, res) => {
+  const { shop, hmac, code, state } = req.query;
+  const stateCookie = cookie.parse(req.headers.cookie).state;
+
+  if (state !== stateCookie) {
+    return res.status(403).send('Request origin cannot be verified');
+  }
+
+  if (shop && hmac && code) {
+    res.status(200).send('Callback route');
+
+    // TODO
+    // Validate request is from Shopify
+    // Exchange temporary code for a permanent access token
+      // Use access token to make API call to 'shop' endpoint
+  } else {
+    res.status(400).send('Required parameters missing');
+  }
+});
+
 app.listen(3000, () => {
   console.log('Example app listening on port 3000!');
 });
