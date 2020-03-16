@@ -1,0 +1,19 @@
+{
+  "name": "shopify-node-express-app",
+  "version": "1.0.0",
+  "description": "Shopify Node.js + Express Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaayperez/shopify-node-express-app.git"
+  },
+  "author": "Justin Perez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaayperez/shopify-node-express-app/issues"
+  },
+  "homepage": "https://github.com/jaayperez/shopify-node-express-app#readme"
+}
