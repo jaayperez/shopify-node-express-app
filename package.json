@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/jaayperez/shopify-node-express-app/issues"
   },
-  "homepage": "https://github.com/jaayperez/shopify-node-express-app#readme"
+  "homepage": "https://github.com/jaayperez/shopify-node-express-app#readme",
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nonce": "^1.0.4",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
 }
