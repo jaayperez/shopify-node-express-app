@@ -6,4 +6,4 @@ This is a Node.js + Express Application that connects to Shopify. The applicatio
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/jaayperez/shopify-node-express-app/blob/master/LICENSE)  
 
-This work by [Justin Perez](https://justinperez.com) is licensed under a <a rel="license" href="https://github.com/jaayperez/shopify-app-node-react/blob/master/LICENSE">MIT License Copyright © 2020</a>.
+This work by [Justin Perez](https://justinperez.com) is licensed under a <a rel="license" href="https://github.com/jaayperez/shopify-node-express-app/blob/master/LICENSE">MIT License Copyright © 2020</a>.
