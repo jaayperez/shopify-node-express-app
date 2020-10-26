@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jaayperez/shopify-node-express-app#readme",
   "dependencies": {
-    "cookie": "^0.4.0",
+    "cookie": "^0.4.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nonce": "^1.0.4",
